@@ -1,4 +1,4 @@
-# ln-api-management project
+# Quarkus Swagger - LN API Management Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
