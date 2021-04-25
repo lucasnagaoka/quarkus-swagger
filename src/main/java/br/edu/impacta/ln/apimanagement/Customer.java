@@ -32,12 +32,17 @@ public class Customer {
         this.name = name;
     }
 
-    public LocalDate getDateOfBirth() {
+	public LocalDate getDateOfBirth() {
         return this.dateOfBirth;
     }
 
     public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
+    
+    @Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", dateOfBirth=" + dateOfBirth + "]";
+	}
 
 }
